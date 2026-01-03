@@ -2,6 +2,8 @@
 
 一个用于与 [Harbor 容器镜像仓库](https://goharbor.io/) API 交互的 Rust 库。
 
+本项目主要用于将Harbor的API 抽象出更简化的字段，方便用于DevOps平台中。
+
 ## 功能特性
 
 - **健康检查**：检测 Harbor 实例的运行状态。

@@ -2,6 +2,8 @@
 
 A Rust library for interacting with the [Harbor Container Registry](https://goharbor.io/) API.
 
+This project primarily aims to abstract Harbor's API into simpler fields, making it easier to use in DevOps platforms.
+
 ## Features
 
 - **Health Check**: Check the health status of a Harbor instance.
