@@ -36,7 +36,7 @@ async fn main() {
     let port = 443;
     let use_tls = true;
     let username = "admin";
-    let password = "Harbor12345";
+    let password = "";
 
     let client = HarborClient::new(host, port, use_tls, username, password);
     let server = client.to_server();
