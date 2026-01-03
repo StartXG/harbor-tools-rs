@@ -1,5 +1,5 @@
 use base64::{engine::general_purpose, Engine as _};
-use harbor_rs::types::HarborClient;
+use harbor_tools_rs::types::HarborClient;
 use tokio;
 
 #[test]
