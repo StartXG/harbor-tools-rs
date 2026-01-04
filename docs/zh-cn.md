@@ -60,6 +60,31 @@ async fn main() {
 }
 ```
 
+## 调试
+
+```shell
+touch tests/test.toml
+```
+
+`tests/test.toml` 的示例配置：
+
+```toml
+[HarborServer]
+host = ""
+port = 443
+use_ssl = true
+username = ""
+password = ""
+
+[HarborProject]
+project = ""
+repository = ""
+```
+
+```shell
+cargo test --tests -- --nocapture
+```
+
 ## 贡献
 
 欢迎提交 Pull Request。若涉及重大变更，请先创建 Issue 与我们讨论。

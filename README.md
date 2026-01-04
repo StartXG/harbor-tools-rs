@@ -62,6 +62,31 @@ async fn main() {
 }
 ```
 
+## Debug
+
+```shell
+touch tests/test.toml
+```
+
+Hers is an example configuration for `tests/test.toml`:
+
+```toml
+[HarborServer]
+host = ""
+port = 443
+use_ssl = true
+username = ""
+password = ""
+
+[HarborProject]
+project=""
+repository=""
+```
+
+```shell
+cargo test --tests -- --nocapture
+```
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
